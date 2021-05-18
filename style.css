@@ -178,10 +178,10 @@ nav a{
     border-width:2px;
     height: 15px;
     border-radius: 10px;
-    padding-left:6px;
+    /* padding-left:6px;
     padding-right: 6px;
     /* padding-top: 2px;
-    padding-bottom: 4px; */
+    padding-bottom: 4px; */ 
     color: white;
    
 }
@@ -258,4 +258,5 @@ footer p{
 
 .dropdown .navbutton:hover{
     background-color: white;
+    padding:-10px
 }
