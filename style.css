@@ -180,8 +180,8 @@ nav a{
     border-radius: 10px;
     padding-left:6px;
     padding-right: 6px;
-    padding-top: 2px;
-    padding-bottom: 4px;
+    /* padding-top: 2px;
+    padding-bottom: 4px; */
     color: white;
    
 }
