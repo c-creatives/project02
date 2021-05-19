@@ -261,7 +261,7 @@ footer p{
     display: none;
     position: absolute;
     width: 200%;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 .navbutton:hover .dropdown{
     display: block;
