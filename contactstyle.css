@@ -270,6 +270,9 @@ footer p{
 .dropdown .navbutton:hover{
     background-color: white;
 }
+.dropdown .navbutton{
+    border-radius: 10px;
+}
 .contact{
     margin-bottom: 50px;
 }
