@@ -1,0 +1,306 @@
+body{
+    background-color:rgb(177, 172, 255);
+    font-size: 1.125rem;
+    background-image: url(./images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Roboto Slab';
+    margin-bottom: 1rem;
+    font-weight:900;
+    text-shadow: 2px 2px 0px white;
+    width:80%;
+    text-align: center;
+    border-radius: 20px;
+    color:rgb(18, 8, 109);
+}
+.container {
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    margin-top: 50px;
+    padding-bottom:80px;
+    border-bottom: 3px solid white;
+    
+}
+main {
+
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin-bottom: 80px;
+    margin-top:20px;
+}
+main p{
+    font-family:'Roboto Slab',serif;
+    letter-spacing:2px;
+    width: 500px;
+    font-weight: lighter;
+    margin-bottom: .5rem;
+    
+}
+.cards {
+
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.card1,.card2,.card3{
+    box-sizing: border-box;
+    padding: 0px 0px 0px 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.205);
+    height:400px;
+    
+
+}
+
+.card1{
+   background-image:url(./images/image-background-card1.jpg);
+   background-size:cover;
+   background-position:bottom;
+    width: 30%;
+ 
+   
+   
+   
+   
+}
+
+.card2{
+    background-image:url(./images/image-background-card2.jpg);
+    background-size: cover;
+    background-position:bottom;
+    width:30%;
+
+    
+    
+    
+
+}
+.card3{
+    background-image:url(./images/image-background-card3.jpg);
+    background-size: cover;
+    background-position:bottom;
+    width:30%;
+    
+    
+
+
+ }
+ .card3:hover{
+    width:200%;
+    height: auto;
+
+}
+.card2:hover{
+    width:200%;
+    height: auto;
+
+}
+.card1:hover{
+    width:200%;
+    height: auto;
+}
+ .herobox1{
+     flex: 2;
+     
+
+ }
+ .herobox2{
+   flex: 1;
+   padding: 0px 0px 20px 30px;
+   background-color: white;
+  
+}
+
+#button{
+    height: 25px;
+    margin-bottom: 20px;
+    color: rgb(18, 8, 109);
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family:'Poppins';
+    font-weight: 800;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.185);
+    position: absolute;
+
+}
+#button:hover{
+    padding: 15px;
+}
+
+a:hover{
+    color:white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex:3;
+    padding-bottom: 50px;
+
+    
+    
+    
+}
+.logo{
+    padding-right:30px;
+    flex: 1;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing:2px;
+    border-style: solid;
+    border-width:2px;
+    height: 15px;
+    border-radius: 10px;
+    padding-left:6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    color: white;
+   
+}
+nav a:hover{
+    color: rgb(70, 6, 122);
+}
+h2{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.cards p{
+    font-size: .85rem;
+    color: white;
+    margin:5px 20px 30px 20px;
+    font-family: 'MOntserrat';
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+}
+.cards img{
+    padding: 30px 90px 10px 90px;
+    
+}
+.f1,.f2,.f3,.f4{
+    width: 40%;
+    border: 3px solid white;
+    text-align: center;
+    /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.089); */
+    margin-top: 50px;
+    border-radius: 40px 40px 0px 40px;
+    
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+  
+}
+footer h6{
+    text-align: right;
+    font-size: 20px;
+    width:50%;
+    font-family:'playfair Display';
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    
+}
+footer p{
+    text-align: left;
+    padding: 20px 20px 10px 20px;
+    font-family: 'Sawarabi Gothic';
+}
+.navbutton{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+}
+.dropdown.navbutton a{
+    color:rgb(70, 6, 122)
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    width: 200%;
+    margin-top: 18px;
+}
+.navbutton:hover .dropdown{
+    display: block;
+    
+}
+.dropdown .navbutton:hover{
+    background-color: white;
+}
+.contact{
+    margin-bottom: 50px;
+}
+.contact h1{
+    font-size: 50px;
+    font-family: 'Roboto Slab';
+    margin-bottom: 1rem;
+    font-weight:900;
+    text-shadow: 2px 2px 0px white;
+    width:100%;
+    text-align: left;
+    border-radius: 20px;
+    color:rgb(18, 8, 109);
+}
+.form{
+    margin-top: 80px;
+}
+.form label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+#message {
+    margin-top: 10px;
+}
+textarea{
+    color:blue;
+    background-color: rgba(166, 160, 255, 0.149);
+    border-radius: 20px;
+    text-indent: 20px;
+    border-color: white;
+    border-width: 2px;
+}
